@@ -68,7 +68,6 @@ body::before {
   position: absolute;
   top: -12%;
   left: -11%;
-  right: -11%;
   width: 123.875%;
   height: 30.65%;
   border-radius: 50%;
@@ -663,7 +662,7 @@ hr {
     font-size: 10px !important;
   }
 }
-@media (min-width: 1560px) {
+@media (min-width: 2560px) {
   :root {
     font-size: 25px !important;
   }
