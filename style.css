@@ -548,6 +548,9 @@ hr {
 .form > * {
   margin-bottom: 1.563rem;
 }
+.set {
+  width: 80%;
+}
 .set > * {
   margin-bottom: 1.563rem;
 }
