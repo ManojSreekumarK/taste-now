@@ -507,9 +507,9 @@ form button {
 body.disable-before::before {
   display: none;
 }
-.disable-before span {
+/* .disable-before span {
   color: #f2bc57;
-}
+} */
 
 .signup {
   display: flex;
