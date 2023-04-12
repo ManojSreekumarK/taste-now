@@ -568,6 +568,52 @@ hr {
   border-radius: 5px;
   margin-bottom: 8.375rem;
 }
+/* ////////// animation //////////// */
+.my-text {
+  animation-name: appear;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.visible-left {
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.visible-right {
+  animation: fadeInright 1s ease-in-out;
+}
+
+@keyframes fadeInright {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /* ////////// responsive //////////// */
 @media (max-width: 768px) {
   :root {
