@@ -209,7 +209,7 @@ nav li:nth-last-child(1) a {
 .card h5 {
   font-weight: 500;
   margin-top: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 h6 {
   font-size: 0.813rem;
@@ -362,7 +362,7 @@ footer li {
 .search-box {
   display: flex;
   align-items: center;
-  width: 300px;
+  width: 18.75rem;
   background-color: #fff;
   border: 1px solid var(--pc);
   border-radius: 5px;
@@ -370,7 +370,7 @@ footer li {
 }
 
 .search-box input {
-  flex: 1;
+  width: 100%;
   border: none;
   outline: none;
   margin: 0;
